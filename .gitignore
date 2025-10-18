@@ -1,0 +1,32 @@
+# Ignore Python virtualenv for backend
+AI-ML-based-solution-for-detection-of-face-swap-based-deep-fake-videos/backend/.venv/
+
+# Node
+node_modules/
+
+# Python caches & bytecode
+**/__pycache__/
+**/*.py[cod]
+
+# Virtualenvs
+.venv/
+env/
+
+# Build / packaging
+*.egg-info/
+dist/
+build/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Env / logs
+.env
+.env.local
+*.log
+
+# Optional (ignore runtime uploads or large model files if you don't want them in repo)
+# AI-ML-based-solution-for-detection-of-face-swap-based-deep-fake-videos/backend/uploads/
+# AI-ML-based-solution-for-detection-of-face-swap-based-deep-fake-videos/backend/models/*.h5
